@@ -143,7 +143,7 @@ Open PowerShell and navigate to your desired location:
 ```powershell
 cd E:\SORAdes
 git clone https://github.com/mahostar/Sora-Watermark-Remover
-cd WatermarkRemover-AI
+cd Sora-Watermark-Remover
 ```
 
 ### Step 3: Create Virtual Environment
