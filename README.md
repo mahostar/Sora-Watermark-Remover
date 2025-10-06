@@ -222,7 +222,20 @@ pip install PyQt6 transformers iopaint opencv-python-headless
 pip install tkinterdnd2
 ```
 
-### Step 11: Download LaMa Model
+### Step 11: Fix conflicting packages
+```powershell
+# First, uninstall the conflicting packages
+pip uninstall -y iopaint accelerate transformers diffusers
+
+# Install compatible versions
+pip install accelerate==0.25.0
+pip install transformers==4.36.0
+pip install diffusers==0.25.0
+
+# Now reinstall iopaint
+pip install iopaint==1.4.3
+```
+### Step 12: Download LaMa Model
 
 ```powershell
 iopaint download --model lama
