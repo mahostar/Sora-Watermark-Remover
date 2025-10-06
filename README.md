@@ -142,7 +142,7 @@ Open PowerShell and navigate to your desired location:
 
 ```powershell
 cd E:\SORAdes
-git clone https://github.com/D-Ogi/WatermarkRemover-AI.git
+git clone https://github.com/mahostar/Sora-Watermark-Remover
 cd WatermarkRemover-AI
 ```
 
