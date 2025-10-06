@@ -127,7 +127,7 @@ nvidia-smi
 
 ### Step 1: Install Python 3.12
 
-1. Download Python 3.12 from: https://www.python.org/downloads/
+1. Download Python 3.12 from: [https://www.python.org/downloads/](https://www.python.org/downloads/release/python-3126/?utm_source=chatgpt.com)
 2. Run the installer
 3. ⚠️ **CRITICAL:** Check "Add Python 3.12 to PATH"
 4. Click "Install Now"
